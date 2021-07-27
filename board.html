@@ -1,0 +1,39 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>MyKanban</title>
+    <link rel="stylesheet" href="board_style.css">
+    <script src="board_logic.js"></script>
+  </head>
+  <body>
+
+    <div id="container">
+      <div class="status_container pending" id="pending_container">
+        <div id="pending_lid" class="lid">
+          <p>Pending</p>
+          <button type="button" name="add" class="actions">+</button>
+        </div>
+      </div>
+
+      <div class="status_container inprogress" id="inprogress_container">
+        <div id="inprogress_lid" class="lid">
+          <p>In Progress</p>
+          <button type="button" name="add" class="actions" >+</button>
+        </div>
+      </div>
+
+      <div class="status_container completed" id="completed_container">
+        <div id="completed_lid" class="lid">
+          <p>Completed</p>
+          <button type="button" name="add" class="actions">+</button>
+        </div>
+      </div>
+
+    </div>
+    <div id="info">
+      <p style="padding:1em;width:80%;">✔ to save</p>
+      <p style="padding:1em;width:80%;">✏ to edit</p>
+      <p style="padding:1em;width:80%;">➡ to progress</p>
+    </div>
+  </body>
+</html>
