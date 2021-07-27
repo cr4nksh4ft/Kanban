@@ -51,7 +51,6 @@ function changeHandler(op_context,targ){
 
 function animationend_handler(e){
   //Turns off null input reject animation
-  console.log("Animation end detected");
   e.target.classList.remove('task');
 }
 
